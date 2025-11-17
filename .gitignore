@@ -1,0 +1,32 @@
+# Arquivos compilados Java
+*.class
+build/
+out/
+bin/
+
+# Arquivos de IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos CSV gerados pelo sistema
+usuarios.csv
+acervo.csv
+
+# Arquivos de compilação
+*.jar
+*.war
+*.ear
