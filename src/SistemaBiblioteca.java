@@ -232,9 +232,9 @@ public class SistemaBiblioteca {
     public void exibirMenu() {
         int opcao;
         do {
-            System.out.println("\n========================================");
+
             System.out.println("  SISTEMA DE GESTÃO DE BIBLIOTECA");
-            System.out.println("========================================");
+            System.out.println("-");
             System.out.println("1.  Cadastrar Aluno");
             System.out.println("2.  Cadastrar Professor");
             System.out.println("3.  Cadastrar Livro");
@@ -248,7 +248,7 @@ public class SistemaBiblioteca {
             System.out.println("11. Salvar Dados");
             System.out.println("12. Carregar Dados");
             System.out.println("0.  Sair");
-            System.out.println("========================================");
+            System.out.println("-");
             
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
@@ -407,7 +407,6 @@ public class SistemaBiblioteca {
             });
     }
     
-    // Método main pra executar o programa
     public static void main(String[] args) {
         SistemaBiblioteca sistema = new SistemaBiblioteca();
         sistema.exibirMenu();
